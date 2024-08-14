@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    gap: 36px;
+}
+
+section {
+gap: 18px;
+display: grid;
+}
+
+section div.assignment {
+display: grid;
+gap: 16px;
+padding: 32px;
+border: solid black 2px;
+}
+
+/* #element {
+    background-color: aqua;
+} */
